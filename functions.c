@@ -123,7 +123,7 @@ void yemek(char* name, int money) {
 
 void icecek(char* name, int money) {
     while(istek != "evet") {
-        printf("[Cagan]: Tabiki ne istersiniz ?");
+        printf("[Cagan]: ne istiyon yaragim ?");
     printf("%s", icecektablosu);
     ps1(name, money);
     scanf("%d", &icecek_istek);
@@ -131,7 +131,7 @@ void icecek(char* name, int money) {
         money -= icecek_fiyat(icecek_istek);
     }
     else {
-        printf("Yeterli paranız yok!");
+        printf("amk fukarasi siktirgit");
         icerigir(name, money, primary.Cinsiyet);
     }
     printf("[Cagan]: Hemen geliyor. Başka bir istediğiniz var mıdır?(Menu/Oyun/Yemek/İçecek)\n");
@@ -212,9 +212,11 @@ void ps1(char* name, int money) {
 
 void konus(char* name, int money) {
     printf("Kiminle konuşmak isterseniz:\n\
-            1. Ahmet\n\
-            2. Mehmet\n\
-            3. John");
+            1. Selahattin D.\n\
+	    2. Murat K.\n\
+            3. Abdullah O.\n\
+	    4. Fetullah G.\n\
+            5. Berkin E.");
     ps1(name, money);
     char who[256];
     scanf("%s", who);
