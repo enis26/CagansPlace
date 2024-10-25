@@ -60,14 +60,14 @@ void giris() {
     printf("Karakterimiz girişi gördüğü zaman girip girmemek konusunda kararsız kaldı. Tabela kanla yazılmıştı. Ama saat iyice geç olmuştu ve bir an önce karar vermesi gerekiyordu.");
     
     while(strcmp(gir, "girme") != 0 || strcmp(gir, "Girme") != 0) {
-        printf("\nGirecek misin(Gir/girme) : ");
+        printf("\nGentoo yu sikecek misin(Sik/Sikme) : ");
         scanf("%s", gir);
 
-        if(strcmp(gir, "gir") == 0 || strcmp(gir, "Gir") == 0) {
+        if(strcmp(gir, "sik") == 0 || strcmp(gir, "Sik") == 0) {
             login();
         }
-        else if (strcmp(gir, "girme") == 0 || strcmp(gir, "Girme") == 0) {
-            printf("Karakterimiz arkasını dönerek oradan uzaklaştı.\n");
+        else if (strcmp(gir, "sikme") == 0 || strcmp(gir, "Sikme") == 0) {
+            printf("30 gündür gentoo derleyerek sellfuck yaptı".\n");
             break;
         }
         else {
