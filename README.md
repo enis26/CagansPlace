@@ -1,9 +1,9 @@
 # Cagan's Place
-A simple roleplay game written in C
+bASİTRR SIKSI MODUY GIGILK PLAY SIKSIKS
 
 ![Alt text](screenshot.png?raw=true "CagansPlace")
 
 ## Building
 ```
-compile with gcc main.c
+ANANIZIN AMINA SOKUJN
 ```
