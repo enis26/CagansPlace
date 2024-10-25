@@ -5,5 +5,5 @@ bASİTRR SIKSI MODUY GIGILK PLAY SIKSIKS
 
 ## Building
 ```
-ANANIZIN AMINA SOKUJN
+Kendinizi parmaklayin
 ```
