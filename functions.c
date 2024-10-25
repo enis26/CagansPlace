@@ -42,7 +42,7 @@ user primary;
 void hosgeldiniz(char* name, char* cinsiyet) {
 	printf(GREEN("\
 ##################################\n\
-# ")YELLOW("Cagan'ın mekanına hoş geldiniz ")GREEN("#\n\
+# ")YELLOW("SEX MEKANINA HOSGELDINIZ GENCLERR 🥵🥵 ")GREEN("#\n\
 ##################################"));
     primary.Name = name;
     primary.Cinsiyet = cinsiyet;
@@ -53,11 +53,11 @@ void hosgeldiniz(char* name, char* cinsiyet) {
 
 void icerigir(char* name, int money, char* cinsiyet) {
 	if(ilk_tanisma == 1) {
-        printf("\n[Cagan]: Merhaba %s %s. Size nasıl yardımcı olabilirim? (İçecek/Yemek/Oyun)\n", cinsiyet, name);
+        printf("\n[Abdullah O.]: Biji kurdistan %s %s. Ezci bowe tenim? (İçecek/Yemek/Oyun)\n", cinsiyet, name);
         ilk_tanisma = 0;
     }
     else {
-        printf("[Cagan]: Size nasıl yardımcı olabilirim ?\n");
+        printf("[Abdullah O.]: yarag yarag ?\n");
     }
     ps1(name, money);
 	scanf("%s", istek);
