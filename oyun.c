@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-int bowling() {
+int sikis() {
     /*Bowling game*/
 }
 
-int bilardo() {
+int sokus() {
     /*Bilardo game*/
 }
 
-int arcade() {
+int terorist_update() {
     /*Arcade game*/
 }
